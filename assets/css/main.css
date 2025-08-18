@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body, 
+p,
+.h1 {
+	font-family: serif;
+	font-size: 22px;
+	font-style: normal;
+	line-height: 1.1;
+	color: white;
+}
+
+#background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+	position: relative;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+  	width: 50%;
+}
+
+.block {
+	margin-bottom: 40px;
+}
+
+.header {
+	text-align: center;
+}
+
+.header-lines {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	text-align: center;
+	/* background-color: red; */
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.archive-event {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.archive-header {
+	padding: 0px;
+	margin: 0px;
+}
+
+.archive-paragraph {
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+/* .hide {
+	display: none;
+} */
+
+table {
+	width: 100%;
+}
+
+.highlight,
+a:hover,
+a {
+	color: red;
+	cursor: pointer;
+}
+
+a.link-no-style {
+	text-decoration: none;
+}
+
+td {
+	padding-right: 1em;
+	vertical-align: top;
+}
+
+.col-left,
+.col-center,
+.col-right {
+	padding: 0px;
+}
+
+.col-left,
+.col-right {
+	width: 20%;
+}
+
+.col-center {
+	text-align: center;
+	width: 60%;
+}
+
+.col-right {
+	text-align: right;
+}
+
+#book {
+	width: 100%;
+}
+
+.description {
+	text-align: left;
+}
+
+p {	
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.caption {
+	font-size: 14px;
+	text-align: left;
+}
+
+img {
+	width: 100%;
+}
+
+.mobile {
+	display: none;
+}
+
+a {
+	color: white;
+	text-decoration-thickness: 2px;
+}
+
+.top,
+.footer {
+	position: fixed;
+	z-index: 10;
+}
+
+.top a,
+.footer a {
+	text-decoration: none;
+}
+
+.top {
+	top: 12px;
+}
+
+.top-left,
+.footer-left {
+	left: 12px;
+}
+
+.top-right,
+.footer-right {
+	right: 12px;
+}
+
+.footer {
+	bottom: 12px;
+}
+
+.blink {
+    animation: blink-animation 1s steps(1, start) infinite;
+	text-decoration: none;
+}
+
+a.button {
+	color: red; !important
+	text-decoration: none;
+}
+
+.blink:hover {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+	animation: blink-animation 0s;
+}
+
+@keyframes blink-animation {
+    50% {
+        visibility: hidden;
+    }
+}
+
+
+/* Mobile
+-------------------------------------------------- */
+  
+@media screen and (max-width: 900px) {
+	html,
+	body, 
+	p,
+	.h1 {
+		font-size: 18px;
+	}
+	.container {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 60px;
+		margin-bottom: 60px;
+  		width: 95vw;
+	}
+	.col-left,
+	.col-right {
+		width: 25%;
+	}
+	.col-center {
+		width: 50%;
+	}
+	.mobile {
+		display: block;
+	}
+	.no-mobile {
+		display: none;
+	}
+}
+  
