@@ -78,9 +78,9 @@ body {
 	margin-top: 0px;
 }
 
-/* .past {
-	opacity: 0.3;
-} */
+.past {
+	opacity: 0.25;
+}
 
 table {
 	width: 100%;
@@ -92,6 +92,8 @@ a {
 	color: red;
 	cursor: pointer;
 }
+
+
 
 a.link-no-style {
 	text-decoration: none;
